@@ -26,7 +26,7 @@ This is a simple Movie API built with Go, using the Gorilla Mux router. The API 
    cd <repository-directory>
    ```
 
-##Testing the API
+## Testing the API
 
  Make a POST request to Create a movie:
 
