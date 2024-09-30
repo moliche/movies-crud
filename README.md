@@ -6,7 +6,6 @@ This is a simple Movie API built with Go, using the Gorilla Mux router. The API 
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Testing the API](#testing-the-api)
 
 ## Features
