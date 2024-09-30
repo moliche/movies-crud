@@ -7,9 +7,7 @@ This is a simple Movie API built with Go, using the Gorilla Mux router. The API 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [Testing the API](#testing-the-api)
-- [License](#license)
 
 ## Features
 
@@ -21,13 +19,16 @@ This is a simple Movie API built with Go, using the Gorilla Mux router. The API 
 
 ## Installation
 
-1. Clone the repository:
+• Clone the repository:
 
    ```bash
    git clone <repository-url>
    cd <repository-directory>
    ```
-2. Make a POST request to Create a movie:
+
+##Testing the API
+
+ Make a POST request to Create a movie:
 
    ```bash
    curl -X POST http://localhost:8000/movies \
@@ -41,7 +42,7 @@ This is a simple Movie API built with Go, using the Gorilla Mux router. The API 
        }
    }'
    ```
-3. Read Update Delete Movies:
+ Read Update Delete Movies:
    •Get all movies
    ```bash
    curl -X GET http://localhost:8000/movies
