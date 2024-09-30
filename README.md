@@ -23,6 +23,7 @@ This is a simple Movie API built with Go, using the Gorilla Mux router. The API 
    ```bash
    git clone <repository-url>
    cd <repository-directory>
+   go run main.go
    ```
 
 ## Testing the API
